@@ -30,3 +30,11 @@ print('Test rev_string():')
 print(rev_string('alex'))
 
 # 4
+def num_within(n, beg, end):
+    return n >= beg and n <= end
+
+print('Test num_within():')
+print(num_within(5, 3, 10))
+print(num_within(1, 3, 10))
+
+
